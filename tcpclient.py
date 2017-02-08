@@ -18,7 +18,6 @@ for i in range(0, 26):
     print 'receiving message...'
     received_message = client_socket.recv(1024)
     print 'received "', received_message, '"'
-    print 'server socket = '
     time.sleep(.5)
 
 client_socket.close()
